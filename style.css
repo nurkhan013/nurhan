@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background: #f0f8ff;
+    background-image: url("./9555741.jpg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.clickbatton{
+    padding: 20px 40px;
+    font-size: 35px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.clickbatton:disabled{
+    background-color: rgb(147, 147, 147);
+    cursor: not-allowed;
+}
+
+.info{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.startclickbatton{
+    padding: 20px 40px;
+    font-size: 35px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
